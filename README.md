@@ -4,7 +4,7 @@
 TypeError: Cannot read property '_currentElement' of null
 ```
 
-If you've ever seen this error before, you've probably also discovered that it tends tell you nothing about the actual issue that lead to it. It's one of a number of indicators that there's a problem in one of your components, but it won't do much to tell you where or what the problem is. With the [release of React 16](https://facebook.github.io/react/blog/2017/09/26/react-v16.0.html) comes a new feature known as Error Boundaries, which hope to do away with the stack trace slog that usually follows an internal component error.
+If you've ever seen this error before, you've probably also discovered that it tends to tell you nothing about the actual issue that led to it. It's one of a number of indicators that there's a problem in one of your components, but it won't do much to tell you where or what the problem is. With the [release of React 16](https://facebook.github.io/react/blog/2017/09/26/react-v16.0.html) comes a new feature known as Error Boundaries, which hope to do away with the stack trace slog that usually follows an internal component error.
 
 ## What is an error boundary?
 
